@@ -1,4 +1,4 @@
-function check(){
+function done(){
 
 var question1 = document.trivia.question1.value;
 var question2 = document.trivia.question2.value;
@@ -46,10 +46,5 @@ var correct = 0;
         document.getElementById("messages")[range];
         document.getElementById("number_correct").innerHTML = "you got" + correct + "correct.";
     }
-
-    $("#button").on("click", function(check){
-        event.preventDefault();
-    }
-
 
 
