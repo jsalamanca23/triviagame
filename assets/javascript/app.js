@@ -41,9 +41,15 @@ var correct = 0;
        
        
         document.getElementById("after_submit").style.visibility = "visible";
+
+
         document.getElementById("messages")[range];
         document.getElementById("number_correct").innerHTML = "you got" + correct + "correct.";
-    };
+    }
+
+    $("#button").on("click", function(check){
+        event.preventDefault();
+    }
 
 
 
