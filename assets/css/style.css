@@ -1,15 +1,19 @@
+body {
+/* background-image: url("../images/marv.jpg"); */
+    background-color: red;
+}
+
 .jumbotron {
     text-align: center;
     color: white;
     background-color: red;
-
-}
-body {
-background-image: url("../images/marv.jpg");
-
 }
 
-.questions{
+.hide {
+    display: none;
+}
+
+/* .questions{
     color:white;
     background-color:black;
 }
@@ -22,3 +26,7 @@ p{
     color: white;
 
 }
+timer{
+    background-color: black;
+    color: white;
+} */
