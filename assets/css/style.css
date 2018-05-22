@@ -1,32 +1,9 @@
 body {
 /* background-image: url("../images/marv.jpg"); */
     background-color: red;
-}
 
-.jumbotron {
-    text-align: center;
-    color: white;
-    background-color: red;
 }
 
 .hide {
     display: none;
 }
-
-/* .questions{
-    color:white;
-    background-color:black;
-}
-p{
-    background-color: black;
-    color:white;
-}
-#after_submit {
-    background: black;
-    color: white;
-
-}
-timer{
-    background-color: black;
-    color: white;
-} */

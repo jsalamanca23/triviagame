@@ -1,9 +1,27 @@
 $(document).ready(function(){
     var questions = [{
-        q:"Q1",
-        o:["01", "02", "03", "04"],
-        a:"01"
+        q:"What Race is Ronan the accusser?",
+        o:["human", "Kree", "German", "Xandarian"],
+        a:"Kree",
+    },{
+        q:"The Fantastic Four have their Head Quarters in what building?",
+        o:["Baxter Building", "Stark Tower", "Fantastic Headquarters", "Tilted Towers"],
+        a:"Baxter Building",
+    },{
+        q:"Ghost Rider is known as:",
+        o:["The Red Skull", "The Guardian Devil", "The Spirit of Hate", "The Spirit of Vengeance"],
+        a:"The Spirit of Vengeance",
+    },{
+        q:"Captain America was frozen in which war?",
+        o:["WWI", "Cold War", "WWII", "Civil War"],
+        a:"WWII",
+    },{
+        q:"Peter Parker works as a photographer for:",
+        o:["Daily Bugle", "New York Times", "Daily Mail", "Forbes"],
+        a:"Daily Bugle",
+
     }]
+
     var pick;
     var test;
     var choice;
@@ -13,13 +31,6 @@ $(document).ready(function(){
     var num = 0;
     var userSelection = [];
 
-// var questions = [
-//     ["What Race is Ronan the accusser?", "Human", "Kree","German", "Xandarian", "B"],
-//     ["The Fantastic Four have their Head Quarters in what building?", "Baxter Building", "Stark Tower", "Fantastic Headquarters","Tilted Towers", "A"],
-//     ["Ghost Rider is known as:", "The Red Skull", "The Guardian Devil","The Spirit of Hate", "The Spirit of Vengeance", "D"],
-//     ["Captain America was frozen in which war?", "WWI", "Cold War", "WWII", "American Civil War", "C"],
-//     ["Peter Parker works as a photographer for:", "The Daily Bugle", "New York Times", "Daily Mail", "Forbes", "A"],
-// ];
         questions.forEach(function(x){
         userSelection.push(null)
     });
@@ -106,7 +117,7 @@ $(document).ready(function(){
     }
 
     function displayResults(){
-        // 
+
         var resultsData = $("<div>");
         var correctWrap = $("<p>").text("Correctly answered:" + correct);
         var incorrectWrap = $("<p>").text("Incorrectly answered:" + incorrect);
