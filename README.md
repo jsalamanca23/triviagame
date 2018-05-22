@@ -1,5 +1,5 @@
 # Project Title : TriviaGame
-A simple Trivia Game about some NBA Fun Facts.
+A simple Trivia Game about some MARVEL COMICS Fun Facts.
 
 
 ## Built With:
